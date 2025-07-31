@@ -1,0 +1,346 @@
+@prefix ex: <https://example.com/games/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:JapaneseMultiplayerGame a rdfs:Class ;
+    rdfs:subClassOf ex:MultiplayerGame .
+
+ex:MultiplayerGame a rdfs:Class ;
+    rdfs:subClassOf schema:VideoGame .
+
+ex:1785150 a ex:JapaneseMultiplayerGame ;
+    schema:aggregateRating "Very Positive" ;
+    schema:creator "Brainwash Gang" ;
+    schema:datePublished "2023-05-30" ;
+    schema:genre "アクション",
+        "インディー" ;
+    schema:inLanguage "イタリア語",
+        "ウクライナ語",
+        "スペイン語 - スペイン",
+        "スペイン語－ラテンアメリカ",
+        "チェコ語",
+        "トルコ語",
+        "ドイツ語",
+        "フランス語",
+        "ポルトガル語－ブラジル",
+        "ポルトガル語－ポルトガル",
+        "ポーランド語",
+        "ロシア語",
+        "中国語（簡体字）",
+        "日本語",
+        "英語",
+        "韓国語" ;
+    schema:name "Friends vs Friends" ;
+    schema:operatingSystem "Windows" ;
+    schema:price "1200" ;
+    schema:publisher "Raw Fury" ;
+    schema:reviewCount "8849" ;
+    schema:sameAs <https://store.steampowered.com/app/1785150> ;
+    ex:averagePlaytime 139.0 ;
+    ex:multiplayerModes "PvP",
+        "オンラインPvP",
+        "オンライン協力プレイ",
+        "マルチプレイヤー",
+        "協力プレイ" .
+
+ex:1799220 a ex:JapaneseMultiplayerGame ;
+    schema:aggregateRating "Overwhelmingly Negative" ;
+    schema:creator "Nimbus Games" ;
+    schema:datePublished "2022-11-02" ;
+    schema:genre "アクション",
+        "アドベンチャー",
+        "インディー",
+        "シミュレーション" ;
+    schema:inLanguage "タイ語",
+        "中国語（簡体字）",
+        "中国語（繁体字）",
+        "日本語",
+        "英語" ;
+    schema:name "怨念" ;
+    schema:operatingSystem "Windows" ;
+    schema:price "549" ;
+    schema:publisher "SCRYsoft" ;
+    schema:reviewCount "784" ;
+    schema:sameAs <https://store.steampowered.com/app/1799220> ;
+    ex:averagePlaytime 264.0 ;
+    ex:multiplayerModes "オンライン協力プレイ",
+        "マルチプレイヤー",
+        "協力プレイ" .
+
+ex:1861970 a ex:JapaneseMultiplayerGame ;
+    schema:aggregateRating "Very Positive" ;
+    schema:creator "Red Six Development" ;
+    schema:datePublished "2022-12-16" ;
+    schema:genre "MM（Massively Multiplayer）",
+        "RPG",
+        "アクション",
+        "アドベンチャー",
+        "インディー",
+        "カジュアル",
+        "シミュレーション" ;
+    schema:inLanguage "アラビア語",
+        "イタリア語",
+        "インドネシア語",
+        "ウクライナ語",
+        "オランダ語",
+        "ギリシャ語",
+        "スウェーデン語",
+        "スペイン語 - スペイン",
+        "スペイン語－ラテンアメリカ",
+        "セルビア語",
+        "タイ語",
+        "チェコ語",
+        "デンマーク語",
+        "トルコ語",
+        "ドイツ語",
+        "ノルウェー語",
+        "ハンガリー語",
+        "ヒンディー語",
+        "フィンランド語",
+        "フランス語",
+        "ブルガリア語",
+        "ベトナム語",
+        "ポルトガル語－ブラジル",
+        "ポルトガル語－ポルトガル",
+        "ポーランド語",
+        "マレー語",
+        "ルーマニア語",
+        "ロシア語",
+        "中国語（簡体字）",
+        "中国語（繁体字）",
+        "日本語",
+        "英語",
+        "韓国語" ;
+    schema:name "ミスター・ファーリー" ;
+    schema:operatingSystem "Linux",
+        "Mac",
+        "Windows" ;
+    schema:price "60" ;
+    schema:publisher "Red Six Publishing" ;
+    schema:reviewCount "1494" ;
+    schema:sameAs <https://store.steampowered.com/app/1861970> ;
+    ex:averagePlaytime 181.0 ;
+    ex:multiplayerModes "PvP",
+        "オンラインPvP",
+        "マルチプレイヤー" .
+
+ex:1862520 a ex:JapaneseMultiplayerGame ;
+    schema:aggregateRating "Very Positive" ;
+    schema:creator "Studio Amateur" ;
+    schema:datePublished "2022-08-09" ;
+    schema:genre "インディー",
+        "カジュアル",
+        "シミュレーション",
+        "ストラテジー" ;
+    schema:inLanguage "トルコ語",
+        "ドイツ語",
+        "ロシア語",
+        "中国語（簡体字）",
+        "中国語（繁体字）",
+        "日本語",
+        "英語",
+        "韓国語" ;
+    schema:name "囲碁" ;
+    schema:operatingSystem "Mac",
+        "Windows" ;
+    schema:price "1010" ;
+    schema:publisher "Studio Amateur" ;
+    schema:reviewCount "2628" ;
+    schema:sameAs <https://store.steampowered.com/app/1862520> ;
+    ex:averagePlaytime 119.0 ;
+    ex:multiplayerModes "PvP",
+        "オンラインPvP",
+        "マルチプレイヤー",
+        "共有／分割画面でのPvP",
+        "共有／分割画面での協力プレイ",
+        "協力プレイ" .
+
+ex:1892030 a ex:JapaneseMultiplayerGame ;
+    schema:aggregateRating "Very Positive" ;
+    schema:creator "Alejandro Hernández Ferrero" ;
+    schema:datePublished "2022-04-15" ;
+    schema:genre "インディー",
+        "シミュレーション",
+        "ストラテジー" ;
+    schema:inLanguage "アラビア語",
+        "イタリア語",
+        "インドネシア語",
+        "ウクライナ語",
+        "ギリシャ語",
+        "ジョージア語",
+        "スペイン語 - スペイン",
+        "スペイン語－ラテンアメリカ",
+        "タイ語",
+        "トルコ語",
+        "ドイツ語",
+        "ノルウェー語",
+        "ヒンディー語",
+        "フランス語",
+        "ブルガリア語",
+        "ペルシア語",
+        "ポルトガル語－ブラジル",
+        "ポルトガル語－ポルトガル",
+        "ポーランド語",
+        "ルーマニア語",
+        "ロシア語",
+        "中国語（簡体字）",
+        "日本語",
+        "英語",
+        "韓国語" ;
+    schema:name "Dummynation" ;
+    schema:operatingSystem "Linux",
+        "Mac",
+        "Windows" ;
+    schema:price "1220" ;
+    schema:publisher "Alejandro Hernández Ferrero" ;
+    schema:reviewCount "1581" ;
+    schema:sameAs <https://store.steampowered.com/app/1892030> ;
+    ex:multiplayerModes "PvP",
+        "オンラインPvP",
+        "クロスプラットフォームマルチプレイヤー",
+        "マルチプレイヤー" .
+
+ex:1893810 a ex:JapaneseMultiplayerGame ;
+    schema:aggregateRating "Very Positive" ;
+    schema:creator "League of Geeks" ;
+    schema:datePublished "2024-02-22" ;
+    schema:genre "インディー",
+        "ストラテジー" ;
+    schema:inLanguage "イタリア語",
+        "スペイン語 - スペイン",
+        "ドイツ語",
+        "フランス語",
+        "ポルトガル語－ブラジル",
+        "ポーランド語",
+        "ロシア語",
+        "中国語（簡体字）",
+        "中国語（繁体字）",
+        "日本語",
+        "英語",
+        "韓国語" ;
+    schema:name "Solium Infernum" ;
+    schema:operatingSystem "Windows" ;
+    schema:price "4500" ;
+    schema:publisher "League of Geeks" ;
+    schema:reviewCount "1146" ;
+    schema:sameAs <https://store.steampowered.com/app/1893810> ;
+    ex:averagePlaytime 977.3 ;
+    ex:multiplayerModes "PvP",
+        "オンラインPvP",
+        "マルチプレイヤー" .
+
+ex:1915550 a ex:JapaneseMultiplayerGame ;
+    schema:aggregateRating "Mostly Positive" ;
+    schema:creator "InterStudio" ;
+    schema:datePublished "2022-05-31" ;
+    schema:genre "アドベンチャー",
+        "インディー",
+        "ストラテジー" ;
+    schema:inLanguage "ドイツ語",
+        "フランス語",
+        "ポーランド語",
+        "中国語（簡体字）",
+        "日本語",
+        "英語" ;
+    schema:name "Nemesis: Lockdown" ;
+    schema:operatingSystem "Windows" ;
+    schema:price "2800" ;
+    schema:publisher "Awaken Realms" ;
+    schema:reviewCount "586" ;
+    schema:sameAs <https://store.steampowered.com/app/1915550> ;
+    ex:averagePlaytime 299.0 ;
+    ex:multiplayerModes "PvP",
+        "オンラインPvP",
+        "オンライン協力プレイ",
+        "マルチプレイヤー",
+        "協力プレイ" .
+
+ex:2388460 a ex:JapaneseMultiplayerGame ;
+    schema:aggregateRating "Mixed" ;
+    schema:creator "BKOM Studios" ;
+    schema:datePublished "2024-04-04" ;
+    schema:genre "RPG",
+        "アクション",
+        "インディー",
+        "カジュアル" ;
+    schema:inLanguage "イタリア語",
+        "ウクライナ語",
+        "スウェーデン語",
+        "スペイン語 - スペイン",
+        "デンマーク語",
+        "ドイツ語",
+        "ノルウェー語",
+        "フランス語",
+        "ポルトガル語－ブラジル",
+        "ロシア語",
+        "中国語（簡体字）",
+        "日本語",
+        "英語",
+        "韓国語" ;
+    schema:name "Pathfinder: Gallowspire Survivors" ;
+    schema:operatingSystem "Windows" ;
+    schema:price "800" ;
+    schema:publisher "BKOM Studios" ;
+    schema:reviewCount "506" ;
+    schema:sameAs <https://store.steampowered.com/app/2388460> ;
+    ex:averagePlaytime 105.5 ;
+    ex:multiplayerModes "マルチプレイヤー",
+        "共有／分割画面での協力プレイ",
+        "協力プレイ" .
+
+ex:2423300 a ex:JapaneseMultiplayerGame ;
+    schema:aggregateRating "Very Positive" ;
+    schema:creator "RainyDollGames" ;
+    schema:datePublished "2024-02-21" ;
+    schema:genre "アクション",
+        "インディー" ;
+    schema:inLanguage "スペイン語 - スペイン",
+        "ロシア語",
+        "中国語（簡体字）",
+        "日本語",
+        "英語",
+        "韓国語" ;
+    schema:maxPlayers 4 ;
+    schema:name "迷宮校舎 | School Labyrinth" ;
+    schema:operatingSystem "Windows" ;
+    schema:price "624" ;
+    schema:publisher "RainyDollGames" ;
+    schema:reviewCount "567" ;
+    schema:sameAs <https://store.steampowered.com/app/2423300> ;
+    ex:averagePlaytime 1501.0 ;
+    ex:multiplayerModes "オンライン協力プレイ",
+        "マルチプレイヤー",
+        "協力プレイ" .
+
+ex:2500750 a ex:JapaneseMultiplayerGame ;
+    schema:aggregateRating "Mixed" ;
+    schema:creator "Exbyte Studios" ;
+    schema:datePublished "2023-07-25" ;
+    schema:genre "アクション",
+        "アドベンチャー",
+        "インディー" ;
+    schema:inLanguage "イタリア語",
+        "スペイン語 - スペイン",
+        "トルコ語",
+        "ドイツ語",
+        "フランス語",
+        "ロシア語",
+        "中国語（簡体字）",
+        "日本語",
+        "英語",
+        "韓国語" ;
+    schema:name "Only Climb: Better Together" ;
+    schema:operatingSystem "Windows" ;
+    schema:price "580" ;
+    schema:publisher "Exbyte Studios" ;
+    schema:reviewCount "2184" ;
+    schema:sameAs <https://store.steampowered.com/app/2500750> ;
+    ex:averagePlaytime 3011.0 ;
+    ex:multiplayerModes "PvP",
+        "オンラインPvP",
+        "オンライン協力プレイ",
+        "マルチプレイヤー",
+        "協力プレイ" .
+
